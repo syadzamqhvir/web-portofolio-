@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="web.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portofolio.</a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="Portofolio">Project</a>
+            <a href="#skill">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h1>Hi, i'm Syadza</h1>
+            <h3>Student</h3>
+            <p>I am Syadza Almaqhvira, a passionate and committed student at SMK Taruna Bhakti. 
+                I have high enthusiasm in learning HTML and eager to develop myself.</p>
+                <div class="btn-box">
+                    <a href="#">Hire me</a>
+                    <button id="download">Download CV</button>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+                    <script src="web.js"></script>
+                </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.instagram.com/sylmaqh?igsh=YWZxOWo3ZmJhZGFj"><i class='bx bxl-instagram'></i></a>
+            <a href="https://t.me/maqhvir"><i class='bx bxl-telegram'></i></a>
+            <a href="https://www.discord.com/penjagamasjid"><i class= 'bx bxl-discord-alt'></i></a>
+        </div>
+
+        <span class="home-imgHover"></span>
+    </section>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!----About section start---->
+ <section id="About">
+    <div class="main">
+        <img src="monster 2.jpeg">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h3>Student</h3>
+            <p>I'm Syadza Almaqhvira who is 16 y.o. I'm a 
+                student at Taruna Bhakti Vocational High School. 
+                I'm interested in becoming a software and game developer. 
+                I'm currently learning HTML, CSS, JS and UI/UX which is also a new thing in the world, 
+                maybe this will be my provision and experience in the future.</p>
+                <div class="btn-box">
+                    <a href="#">Read More</a>
+                </div>
+        </div>
+    </div>
+</section>
+
+    <!--Project section start-->
+  
+    <div class="Project" id="Project">
+        <h1>Project</h1>
+        
+    </div>
+
+<div class="container">
+    <div class="test1">
+        <div class="project">
+            <img src="figma.jpg" alt="Proyek 1" class="gambar">
+            <div class="overlay">
+                <h2>Proyek 1</h2>
+                <p>Creating UI/UX with the FIGMA Application</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="Screenshot 2024-05-08 091224.png" alt="Proyek 2" class="gambar">
+            <div class="overlay">
+                <h2>Proyek 2 </h2>
+                <p>Create tables using HTML and CSS.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="Screenshot 2024-05-08 091135.png" alt="Proyek 3" class="gambar">
+            <div class="overlay">
+                <h2>Proyek 3</h2>
+                <p>Create form using HTML and CSS</p>
+            </div>
+        </div>
+
+        </div>
+        
+            <div class="test2">
+                <div class="project">
+                    <img src="girl.jpg" alt="Proyek 4" class="gambar">
+                    <div class="overlay">
+                        <h2>Proyek 4</h2>
+                        <p>Creating UI/UX with the FIGMA Application</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="pororo.jpg" alt="Proyek 5" class="gambar">
+                    <div class="overlay">
+                        <h2>Proyek 5 </h2>
+                        <p>Create tables using HTML and CSS.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="bakso.jpg" alt="Proyek 6" class="gambar">
+                    <div class="overlay">
+                        <h2>Proyek 6</h2>
+                        <p>Create form using HTML and CSS</p>
+                    </div>
+                </div>
+        
+                
+        
+            
+           
+                </div>
+    </div>
+</div>
+
+     <!---Skill section start-->
+    <section class="skill" id="skill">
+        <h2 class="heading">Skills</h2>
+            <section>
+                <div class="box" id="box">
+                    <div class="card">
+                        <i class='bx bxl-figma'></i>
+                        <h5>Figma</h5>
+                    </div>
+        
+                    <div class="card">
+                        <i class='bx bxl-html5' ></i>
+                        <h5>Html</h5>
+                    </div>
+        
+                    <div class="card">
+                        <i class='bx bxl-css3' ></i>
+                        <h5>Css</h5>
+                    </div>
+    
+                    <div class="card">
+                        <i class='bx bxl-javascript' ></i>
+                        <h5>Js</h5>
+                    </div>
+                </div>
+    
+            </section>
+        </section>
+       
+   
+       
+   <!-- Contact Section -->
+<!-- Contact Section -->
+<section id="Contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+        </div>
+        <form id="contact-form" method="POST" action="send_email.php">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+                <input type="number" id="phone" name="phone"  required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+  </section>
+        
+          <footer>
+            <p>&copy; 2024 Portofolio. All rights reserved.</p>
+          </footer>
+
+
+        
+        </div>
+    
+        </div>
+        </div>
+        </section>
+
+   
+
+    
+</body>
+</html>
